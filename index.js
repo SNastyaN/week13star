@@ -5,10 +5,10 @@ diff = diff/1000;
 function formatDate{
     if (diff <= 30){
         console.log("прямо сейчас");
-    if else (diff >= 31 && <= 300){
+    if else (diff >= 31 || <= 300){
         console.log("30 сек. назад");
     }
-    if else(diff >= 301 && <= 345600 )
+    if else(diff >= 301 || <= 345600 )
 } else console.log('вчерашняя дата');
 
 }
